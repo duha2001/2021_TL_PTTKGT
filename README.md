@@ -1,6 +1,8 @@
 # BÀI TIỂU LUẬN PTTKGT 2021
 ### MSSV: 450110441 - HỌ TÊN: HUỲNH ANH DỰ
 ## Đề Bài Mô Phỏng Code Dijkstra - Anh Dự Khoa CNTT 
+
+### Thuật toán Dijkstra
  
 You are given a weighted undirected graph. The vertices are enumerated from 1 to n. Your task is to find the shortest path between the vertex 1 and the vertex n.
 
@@ -26,3 +28,29 @@ You are given a weighted undirected graph. The vertices are enumerated from 1 to
    3 5 1
 - `OUTPUT:`
    1 4 3 5 
+------------------------------------------------------------------------------
+
+### Thuật toán Floyd-Warshall
+
+You should build a simple, connected, undirected, weighted graph with NN nodes. You are given MM constraints of the type a, b, ca,b,c, representing the fact that the minimum distance between nodes aa and bb should be cc.
+
+- Standard input
+  - The first line contains two integers NN and MM.
+
+  - Each of the next MM lines contains three integers aa, bb and cc representing a constraint.
+
+- Standard output
+  - If there is no solution output -1−1.
+
+  - Otherwise, print the number of edges your graph has on the first line.
+
+  - Each of the next line should contain three integers aa, bb, ww, representing an edge (a, b)(a,b) with weight ww.
+## Test case
+  - `INPUT`: 3 3
+1 2 1
+2 3 2
+1 3 3
+ - `OUTPUT`: 2
+1 2 1
+2 3 2
+
